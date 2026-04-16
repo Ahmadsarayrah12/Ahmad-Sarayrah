@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="البرنامج الانتخابي لمرشح كلية تكنولوجيا المعلومات، قسم علم الحاسوب وأمن المعلومات - جامعة مؤتة">
+    <title>البرنامج الانتخابي | حلف الاتحاد والتغيير</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Aref+Ruqaa:wght@400;700&family=Cairo:wght@300;400;600;700;800&family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav id="navbar" class="navbar">
+        <div class="nav-container">
+            <div class="nav-logos">
+                <img src="./الصور/شعار_جامعة_مؤتة.png" alt="شعار جامعة مؤتة" class="logo mutah-logo">
+                <img src="./الصور/Flag_of_Jordan.svg.png" alt="علم الأردن" class="logo jordan-logo">
+                <span class="nav-coalition-name">حلف الاتحاد والتغيير</span>
+            </div>
+            
+            <ul class="nav-links">
+                <li><a href="#home" class="active">الرئيسية</a></li>
+                <li><a href="#about">رسالتي</a></li>
+                <li><a href="#program">البرنامج الانتخابي</a></li>
+                <li><a href="#vision">رؤيتنا</a></li>
+                <li><a href="#contact">تواصل معي</a></li>
+            </ul>
+
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="hero-particles" id="particles-js"></div>
+        <div class="hero-content">
+            <div class="hero-text-area">
+                <div class="hero-badges" style="display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 1.5rem;">
+                    <span class="badge" style="margin-bottom: 0;">مرشحكم لعام 2026</span>
+                    <span class="badge" style="margin-bottom: 0; background: rgba(247, 160, 70, 0.1); color: var(--secondary-color); border-color: rgba(247, 160, 70, 0.2);"><i class="fas fa-laptop-code"></i> مرشح قسم علم الحاسوب وأمن المعلومات</span>
+                </div>
+                <h1 class="hero-title">حلف <span class="highlight">الاتحاد والتغيير</span></h1>
+                <h2 class="hero-subtitle">صوتك يصنع التغيير - معاً نحو بيئة تقنية متطورة</h2>
+                <p class="hero-desc">كلية تكنولوجيا المعلومات - قسم علم الحاسوب وأمن المعلومات</p>
+                
+                <!-- Countdown -->
+                <div class="countdown-wrapper">
+                    <h3 class="countdown-title"><i class="fas fa-hourglass-half"></i> يوم الحسم والتصويت (29 أبريل):</h3>
+                    <div id="countdown" class="countdown">
+                        <div class="time-box"><span id="days">00</span><p>يوم</p></div>
+                        <div class="time-box"><span id="hours">00</span><p>ساعة</p></div>
+                        <div class="time-box"><span id="minutes">00</span><p>دقيقة</p></div>
+                        <div class="time-box"><span id="seconds">00</span><p>ثانية</p></div>
+                    </div>
+                </div>
+
+            </div>
+            
+            <div class="hero-image-area">
+                <div class="image-wrapper">
+                    <div class="blob-shape"></div>
+                    <img src="./الصور/صورة3.jpg" alt="صورة المرشح" class="candidate-img" onerror="this.src='https://via.placeholder.com/400x400/1e293b/ffffff?text=صورة+المرشح'">
+                    <div class="candidate-name-tag">أحمد سامي الصرايرة</div>
+                    <div class="floating-badge badge-1">
+                        <i class="fas fa-laptop-code"></i>
+                        <span>علم الحاسوب</span>
+                    </div>
+                    <div class="floating-badge badge-2">
+                        <i class="fas fa-shield-alt"></i>
+                        <span>أمن المعلومات</span>
+                    </div>
+                </div>
+                
+                <div class="hero-buttons" style="margin-top: 4rem; justify-content: center; width: 100%;">
+                    <a href="#program" class="btn btn-primary">اكتشف برنامجي <i class="fas fa-arrow-left"></i></a>
+                    <a href="https://wa.me/962785503061" target="_blank" class="btn btn-whatsapp">للتواصل معي <i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="about section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">رسالتي والهدف</h2>
+                <div class="divider"></div>
+            </div>
+            
+            <div class="about-grid">
+                <div class="about-card glass-panel reveal">
+                    <div class="icon-box">
+                        <i class="fas fa-bullseye"></i>
+                    </div>
+                    <h3>الهدف الأسمى</h3>
+                    <p>الارتقاء بكلية تكنولوجيا المعلومات لتصبح الوجهة الأولى للتميز الأكاديمي والعملي، وتوفير بيئة خصبة لإبداعات الطلبة في مجالات علم الحاسوب وأمن المعلومات.</p>
+                </div>
+                
+                <div class="about-card glass-panel reveal delay-1">
+                    <div class="icon-box">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3>وعد والتزام</h3>
+                    <p>أعدكم بأن أكون الصوت المعبر عن حاجاتكم، والساعي لتذليل العقبات التي تواجهكم، لنصنع معاً تجربة جامعية متكاملة تجمع بين العلم، المهارة، والبيئة المحفزة.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Electoral Program Section -->
+   <section id="program" class="program section-padding bg-light">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">البرنامج الانتخابي</h2>
+            <p class="section-subtitle">خطة عمل واضحة قابلة للتطبيق، تركز على احتياجات طالب تكنولوجيا المعلومات الأكاديمية والعملية</p>
+            <div class="divider"></div>
+        </div>
+
+        <div class="program-single-text reveal" style="text-align: center; max-width: 900px; margin: 2rem auto; padding: 2rem; background: white; border-radius: 15px; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05); font-size: 1.5rem; font-weight: 600; line-height: 2; color: var(--primary-dark); border: 2px solid rgba(247, 160, 70, 0.2);">
+            <p>نسعى معاً إلى الارتقاء بكلية تكنولوجيا المعلومات من خلال تقوية البيئة التقنية والأكاديمية لتواكب أحدث التطورات، وتوفير دورات تدريبية متخصصة ومجانية لصقل مهارات الطلاب وتأهيلهم لسوق العمل، بالإضافة إلى دعم كافة الأنشطة الطلابية، وفتح قنوات تواصل شفافة ومباشرة لحل مشاكلكم اليومية وتلبية طموحاتكم.</p>
+        </div>
+    </div>
+</section>
+
+    <!-- Vision & Values -->
+    <section id="vision" class="vision section-padding">
+        <div class="container">
+            <div class="vision-wrapper box-shadow">
+                <div class="vision-content reveal">
+                    <h2 class="section-title text-start">لماذا أنا؟</h2>
+                    <div class="divider text-start"></div>
+                    <ul class="features-list">
+                        <li>
+                            <div class="feature-icon"><i class="fas fa-medal"></i></div>
+                            <div class="feature-text">
+                                <h4>تميز أكاديمي</h4>
+                                <p>حصولي - بفضل الله - على تقدير "امتياز" في الفصل الماضي يعكس جديتي المفرطة والتزامي العالي، وهو ذات الالتزام الذي سأكرسه لتطوير الكلية وتمثيلكم بأفضل صورة.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="feature-icon"><i class="fas fa-code"></i></div>
+                            <div class="feature-text">
+                                <h4>شغف مهني وعملي</h4>
+                                <p>عملي المستمر على تطوير ونشر عدة مشاريع برمجية يعكس شغفاً حقيقياً بتخصصي، ويمنحني الفهم العميق لضرورة ربط موادنا الأكاديمية بالمهارات المطلوبة في سوق العمل.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="feature-icon"><i class="fas fa-puzzle-piece"></i></div>
+                            <div class="feature-text">
+                                <h4>حلول مبتكرة للطلاب</h4>
+                                <p>كطالب مبرمج، لن أكتفي بالشكوى من المشاكل، بل سأسعى دائماً لابتكار وتقديم حلول تقنية وواقعية تُسهّل علينا بيئتنا الأكاديمية وتلبي احتياجاتكم.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="feature-icon"><i class="fas fa-users"></i></div>
+                            <div class="feature-text">
+                                <h4>صوت يمثل الجميع</h4>
+                                <p>سأكون ممثلاً لكافة الطلبة على اختلاف اهتماماتهم، بابي مفتوح دائماً للاستماع إلى أفكاركم، ومقترحاتكم هي البوصلة التي توجه عملنا.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="vision-images reveal delay-1">
+                    <img src="./الصور/صورة الكلية.jpg" alt="صورة كلية تكنولوجيا المعلومات" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Initiatives Section -->
+    <section id="initiatives" class="initiatives section-padding bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">العلم حق للجميع</h2>
+                <div class="divider"></div>
+            </div>
+            
+            <div class="initiative-card glass-panel reveal" style="text-align: center; max-width: 800px; margin: 0 auto; background: white;">
+                <div class="icon-box" style="margin: 0 auto 1.5rem; background: linear-gradient(135deg, #25D366, #128C7E); transform: none;">
+                    <i class="fas fa-book-open" style="color: white; font-size: 2.5rem;"></i>
+                </div>
+                <h3 style="font-size: 1.8rem; margin-bottom: 1rem; color: var(--primary-dark);">جروب دورات تكنولوجيا المعلومات</h3>
+                <p style="font-size: 1.1rem; line-height: 1.8; color: var(--text-muted); margin-bottom: 2rem;">
+                    كأحد إنجازاتي خلال الفترة الماضية، قمت بتأسيس هذه المجموعة لنشر الدورات والورش التدريبية التي تهدف لتأهيل الطلاب ودخولهم بقوة إلى سوق العمل. نحن نشأنا من مبدأ راسخ وهو <strong style="color: var(--secondary-color);">"العلم حق للجميع"</strong>. وقد انضم للمجموعة مئات الطلاب بفضل الله، ليكونوا مجتمعاً داعماً وسنداً لبعضهم البعض. لا ينبغي أن تقف أي عوائق أمام طموحك ورغبتك في التعلم، وهذه المجموعة هي بوابتك المجانية والدائمة للوصول إلى أهدافك.
+                </p>
+                <a href="https://chat.whatsapp.com/EIa1g9bZ8qy0dMEMkDo4qO?mode=gi_t" target="_blank" class="btn btn-whatsapp glow-effect">انضم إلى الجروب الآن <i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">تواصل معي</h2>
+                <p class="section-subtitle">يسعدني دائماً سماع أفكاركم ومقترحاتكم</p>
+                <div class="divider"></div>
+            </div>
+
+            <div class="contact-wrapper glass-panel reveal">
+                <div class="contact-info">
+                    <h3>معلومات التواصل</h3>
+                    <p>لا تتردد في التواصل معي عبر قنوات الاتصال التالية:</p>
+                    <ul class="info-list">
+                        <li><i class="fas fa-phone-alt"></i> <span dir="ltr">+962 7 8550 3061</span></li>
+                        <li><i class="fas fa-map-marker-alt"></i> <span>الأردن - الكرك - جامعة مؤتة</span></li>
+                        <li><i class="fas fa-building"></i> <span>كلية تكنولوجيا المعلومات</span></li>
+                    </ul>
+                    
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/ahmadsarayrahcs/" target="_blank" class="social-icon linkedin" title="حسابي على لينكد إن"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://wa.me/962785503061" target="_blank" class="social-icon whatsapp" title="تواصل معي عبر الواتساب"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-brand">
+                        <img src="./الصور/شعار_جامعة_مؤتة.png" alt="شعار الجامعة" class="footer-logo">
+                        <p>نعمل بجد لنرتقي بكلية تكنولوجيا المعلومات في جامعة مؤتة.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 جميع الحقوق محفوظة لمرشح كلية تكنولوجيا المعلومات.</p>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Widget -->
+    <a href="https://wa.me/962785503061" target="_blank" class="floating-whatsapp" title="تواصل معي مباشرة">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Floating Share Button -->
+    <button class="floating-share" id="shareButton" title="شارك برنامجي الانتخابي مع زملائك">
+        <i class="fas fa-share-alt"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
